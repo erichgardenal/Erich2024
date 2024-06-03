@@ -1,6 +1,83 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
 body {
-   color:crimson;
-   background-color: black;
-   font-size: 20px;
-   font-family: gotham Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
 }
